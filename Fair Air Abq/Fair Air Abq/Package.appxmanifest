@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="24403rssk.FairAirAbq" Publisher="CN=059B5C6F-0CFE-4629-AFF3-344F10855157" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Fair Air Abq</DisplayName>
+    <PublisherDisplayName>rssk</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Fair_Air_Abq.App">
+      <VisualElements DisplayName="Fair Air Abq" Logo="Assets\150x150.jpg" SmallLogo="Assets\30x30.jpg" Description="Fair Air Abq" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\300x150.jpg" />
+        <SplashScreen Image="Assets\splashscreen.jpg" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
